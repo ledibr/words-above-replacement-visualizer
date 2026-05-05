@@ -5,8 +5,6 @@ def annotate_metadata(size: str = '10k'):
     with open('metadata/player_list.txt', 'r', encoding='utf-8') as f:
         players = [line.strip() for line in f]
 
-    if size != '10k' or size != '12k':
-        size = '10k'
     metadata_path = f'oss_data/war_word2vec_{size}_metadata.tsv'
     metadata_df = pd.read_csv(metadata_path, encoding='utf-8', sep='\t', names=['word'])
     wordcount_df = pd.read_csv(f'metadata/word_counts_{size}.csv', encoding='utf-8')
@@ -23,3 +21,4 @@ def annotate_metadata(size: str = '10k'):
 
 if __name__ == '__main__':
     annotate_metadata('10k')
+    annotate_metadata('12k')

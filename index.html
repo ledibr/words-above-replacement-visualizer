@@ -11471,7 +11471,7 @@ paper-dropdown-menu paper-item {
       </paper-input>
     </div>
     
-    <div class="metadata-editor">
+    <div class="metadata-editor" style="display: none;">
       <paper-dropdown-menu no-animations label="Edit by">
         <paper-listbox attr-for-selected="value" class="dropdown-content" slot="dropdown-content" on-selected-item-changed="metadataEditorColumnChange" selected="{{metadataEditorColumn}}">
           <template is="dom-repeat" items="[[metadataFields]]">
@@ -11505,7 +11505,7 @@ paper-dropdown-menu paper-item {
       <paper-button class="ink-button" on-click="downloadMetadataClicked">Download</paper-button>
       <a href="#" id="downloadMetadataLink" hidden></a>
     </span>
-    <span id="label-button" class="button-container" style="display: none;">
+    <span id="label-button" class="button-container">
       <paper-tooltip position="bottom" animation-delay="0" fit-to-visible-bounds>
         Label selected metadata
       </paper-tooltip>
