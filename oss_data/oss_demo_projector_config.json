@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "metadataPath": "oss_data/war_word2vec_10k_metadata.tsv",
+      "metadataPath": "oss_data/war_word2vec_10k_metadata_annotated.tsv",
       "tensorName": "WAR Word2Vec 10K",
       "tensorPath": "oss_data/war_word2vec_10k_tensor.tsv",
       "tensorShape": [
@@ -10,7 +10,7 @@
       ]
     },
     {
-      "metadataPath": "oss_data/war_word2vec_12k_metadata.tsv",
+      "metadataPath": "oss_data/war_word2vec_12k_metadata_annotated.tsv",
       "tensorName": "WAR Word2Vec 12K",
       "tensorPath": "oss_data/war_word2vec_12k_tensor.tsv",
       "tensorShape": [
