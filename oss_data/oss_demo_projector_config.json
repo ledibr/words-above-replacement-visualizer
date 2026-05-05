@@ -10,11 +10,11 @@
       ]
     },
     {
-      "metadataPath": "oss_data/war_word2vec_15k_metadata.tsv",
-      "tensorName": "WAR Word2Vec 15K",
-      "tensorPath": "oss_data/war_word2vec_15k_tensor.tsv",
+      "metadataPath": "oss_data/war_word2vec_12k_metadata.tsv",
+      "tensorName": "WAR Word2Vec 12K",
+      "tensorPath": "oss_data/war_word2vec_12k_tensor.tsv",
       "tensorShape": [
-        15000,
+        12000,
         300
       ]
     }
