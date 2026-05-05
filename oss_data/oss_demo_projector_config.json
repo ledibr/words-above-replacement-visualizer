@@ -17,6 +17,15 @@
         12000,
         300
       ]
+    },
+    {
+      "metadataPath": "oss_data/war_word2vec_focused_metadata_annotated.tsv",
+      "tensorName": "WAR Word2Vec Players + Target Words",
+      "tensorPath": "oss_data/war_word2vec_focused_tensor.tsv",
+      "tensorShape": [
+        397,
+        300
+      ]
     }
   ]
 }

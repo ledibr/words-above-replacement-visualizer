@@ -20,5 +20,6 @@ def annotate_metadata(size: str = '10k'):
 
 
 if __name__ == '__main__':
-    annotate_metadata('10k')
-    annotate_metadata('12k')
+    # annotate_metadata('10k')
+    # annotate_metadata('12k')
+    annotate_metadata('focused')
