@@ -14,7 +14,7 @@ def annotate_metadata(size: str = '10k'):
 
     metadata_df['type'] = ['player' if w in players else 'word' for w in metadata_df['word']]
     metadata_df = pd.merge(metadata_df, wordcount_df, how='left', on='word')
-    metadata_df = pd.merge(metadata_df, player_df, how='left', on='word')
+    metadata_df = pd.merge(metadata_df, player_df, how='left', on='word').fillna('N/A')
 
     metadata_df.to_csv(f'{metadata_path}_annotated.tsv', sep='\t', index=False, mode='w', encoding='utf-8')
 
