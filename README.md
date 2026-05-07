@@ -26,7 +26,7 @@ for the projector site.
 Each embedding is associated with several metadata fields that can be used as labels
 or color categories in the projector.
 - **word:** The token corresponding to the embedding.
-- **type:** Whether the token is an entity or a non-entity word.
+- **type:** Whether the token is an entity (player) or a non-entity word.
 - **count:** The count of the token in the corpus.
 
   The following two fields are exclusive to entities; non-entities have a value of 'N/A'.
