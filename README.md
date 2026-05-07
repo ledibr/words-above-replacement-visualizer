@@ -28,8 +28,10 @@ or color categories in the projector.
 - **word:** The token corresponding to the embedding.
 - **type:** Whether the token is an entity or a non-entity word.
 - **count:** The count of the token in the corpus.
-The following two fields are exclusive to entities; non-entities have a value of 'N/A'.
-  (Coloring by these fields is most useful when using the "WAR Word2Vec Players + Target Words" tensors
-    or isolating all entity embeddings using 'Search by type' → 'player'.)
+
+  The following two fields are exclusive to entities; non-entities have a value of 'N/A'.
+  (Coloring by these fields is most useful when using the "WAR Word2Vec Players + Target Words" tensors 
+  or isolating all entity embeddings using 'Search by type' → 'player'.)
+
 - **position:** The primary position of the player.
 - **team:** The primary team of the player.
